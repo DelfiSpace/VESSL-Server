@@ -6,17 +6,17 @@
 On this branch you can find a Django server which will in future be able to digest [PQ9EGSE](https://github.com/DelfiSpace/PQ9EGSE) frames and display these as a webpage. It achieves this by automatically generating the webpage HTML code with the Python package [TemPy](https://github.com/Hrabal/TemPy).
 
 
-## Setting up the webserver
+## Setting up the webserver (on Unix-like OS)
 To test the server, do the following:
 1. Ensure Python 3.6+ is installed.
 2. Ensure the Python packages [Django](https://www.djangoproject.com/download/) and [TemPy](https://github.com/Hrabal/TemPy) are installed.
 3. Git clone this repository.
 ```
-git clone https://github.com/DelfiSpace/VESSL-Server/tree/html-generation-demo
+$ git clone https://github.com/DelfiSpace/VESSL-Server/tree/html-generation-demo
 ```
 4. Navigate to the root of the repository and start the server using: 
 ```
-python3 manage.py runserver
+$ python3 manage.py runserver
 ```
 5. Open your web browser and connect to *localhost:5000/downlink/*.
 
