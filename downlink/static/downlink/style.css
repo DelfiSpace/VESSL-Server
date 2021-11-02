@@ -1,0 +1,48 @@
+/*
+
+COMMENT
+
+*/
+
+/* Main body styling */
+body {
+    color: #000000;
+    background-color: #FAFAFA;
+    
+    }
+
+
+/* Flexible fieldsets */
+.cols {
+  display: flex;
+  width: 100%;
+}
+
+/* Width of fieldsets  */
+.fsA { width: 50%; }
+.fsB { width: 50%; }
+
+
+/* Make fieldsets responsive columns */
+@media all and (max-width:768px) {
+  .cols { flex-wrap: wrap; } /* Does not seem to work? */
+  .fsA, .fsB { width: 100%; }
+  .headerA, .headerB { width: 100%; }
+  .footerA, .footerB { width: 100%; }
+}
+
+.headerA { width: 85%; }
+.headerB { width: 15%; }
+.footerA { width: 82%; }
+.footerB { width: 18%; }
+
+
+/* Style the table */
+.data_table, td, tr, th {
+    border-collapse: collapse;
+    border: 1px solid #F7F7F7;
+    background-color: #DDDDDD;
+}
+
+.td-leftalign { text-align: left; }
+.td-rightalign { text-align: right; }
