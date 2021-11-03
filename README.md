@@ -12,13 +12,13 @@ To test the server, do the following:
 2. Ensure the Python packages [Django](https://www.djangoproject.com/download/) and [TemPy](https://github.com/Hrabal/TemPy) are installed.
 3. Git clone this repository.
 ```
-$ git clone https://github.com/DelfiSpace/VESSL-Server/tree/html-generation-demo
+$ git clone -b html-generation-demo https://github.com/DelfiSpace/VESSL-Server.git
 ```
 4. Navigate to the root of the repository and start the server using: 
 ```
 $ python3 manage.py runserver
 ```
-5. Open your web browser and connect to *localhost:5000/downlink/*.
+5. Open your web browser and connect to *127.0.0.1:8000/downlink/*.
 
 You should now see something like this:
 ![alt text](./progress.png?raw=true)

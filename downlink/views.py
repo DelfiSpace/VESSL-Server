@@ -6,7 +6,7 @@ from tempy.tags import Html, Head, Body, Meta, Header, Title, Link, Div, P, A, H
 from tempy.widgets import TempyTable
 
 frame1 = {}
-for i in range(1, 4):
+for i in range(1, 17):
     frame1[i] = ["var" + str(i), "val" + str(i), "unit" + str(i)]
 
 
