@@ -2,6 +2,7 @@
 # VESSL-Server
 
 [![Maintenance](https://img.shields.io/badge/Maintained%3F-yes-green.svg)](https://github.com/DelfiSpace/VESSL-Server/graphs/commit-activity)
+![python](https://img.shields.io/badge/python-3.8-blue)
 
 ## Getting Started
 
@@ -41,7 +42,6 @@ Server: Docker Engine - Community
   Version:          0.19.0
   GitCommit:        de40ad0
 ```
-
 
 ## Help
 
