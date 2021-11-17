@@ -10,7 +10,7 @@
 
 Packages:
 
-* Django Engine Version
+* Docker Engine Version
 
 ```
 Client: Docker Engine - Community
@@ -41,6 +41,11 @@ Server: Docker Engine - Community
  docker-init:
   Version:          0.19.0
   GitCommit:        de40ad0
+```
+
+* Docker Compose Version
+```
+docker-compose version 1.25.0
 ```
 
 ## Help

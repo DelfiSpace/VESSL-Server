@@ -1,6 +1,8 @@
-# JupyterLab-WEkEO
+
+# VESSL-Server
 
 [![Maintenance](https://img.shields.io/badge/Maintained%3F-yes-green.svg)](https://github.com/DelfiSpace/VESSL-Server/graphs/commit-activity)
+![python](https://img.shields.io/badge/python-3.8-blue)
 
 ## Getting Started
 
@@ -8,7 +10,7 @@
 
 Packages:
 
-* Django Engine Version
+* Docker Engine Version
 
 ```
 Client: Docker Engine - Community
@@ -41,6 +43,10 @@ Server: Docker Engine - Community
   GitCommit:        de40ad0
 ```
 
+* Docker Compose Version
+```
+docker-compose version 1.25.0
+```
 
 ## Help
 
@@ -50,4 +56,4 @@ In case a problem or issue related to code is found, please create a new issue i
 
 This code is licensed under an GNU General Public License v3.0 license. See file LICENSE.txt for details on the usage and distribution terms.
 
-All product names, logos, and brands are property of their respective owners. All company, product and service names used in this website are for identification purposes only.# VESSL-Server
+All product names, logos, and brands are property of their respective owners. All company, product and service names used in this website are for identification purposes only.
