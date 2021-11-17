@@ -48,6 +48,9 @@ Server: Docker Engine - Community
 docker-compose version 1.25.0
 ```
 
+The remaining packages details can be found:
+[https://github.com/DelfiSpace/VESSL-Server/wiki/Packages-Installed](https://github.com/DelfiSpace/VESSL-Server/wiki/Packages-Installed)
+
 ## Help
 
 In case a problem or issue related to code is found, please create a new issue in GitHub.
