@@ -38,8 +38,7 @@ INSTALLED_APPS = [
     'django.contrib.sessions',
     'django.contrib.messages',
     'django.contrib.staticfiles',
-    'vessl_api',
-    'vessl_gui'
+    'vessl_api'
 ]
 
 MIDDLEWARE = [

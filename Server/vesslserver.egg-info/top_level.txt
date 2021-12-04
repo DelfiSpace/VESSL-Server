@@ -1,3 +1,0 @@
-vessl_api
-vessl_gui
-vessl_server
