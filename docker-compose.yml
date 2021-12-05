@@ -44,6 +44,30 @@ services:
     ports:
       - "80:80"
 
+  db:
+    image: postgres
+    volumes:
+      - db_data:/var/lib/postgresql/data
+    environment:
+      - POSTGRES_DB=${POSTGRES_DB:-delfitlm}
+      - POSTGRES_USER=${POSTGRES_DB:-postgres}
+      - POSTGRES_PASSWORD=${POSTGRES_DB:-postgres}
+  
+  app:
+    build:
+        context: .
+    environment:
+        - POSTGRES_DB=${POSTGRES_DB:-delfitlm}
+        - POSTGRES_USER=${POSTGRES_DB:-postgres}
+        - POSTGRES_PASSWORD=${POSTGRES_DB:-postgres}
+        - POSTGRES_HOST=${POSTGRES_DB:-db}
+        - POSTGRES_PORT=${POSTGRES_DB:-5432}
+    depends_on:
+      - "db"
+
+volumes:
+    db_data:
+
 networks: 
   webnet:
   redisnet:
