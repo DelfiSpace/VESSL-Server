@@ -53,7 +53,7 @@ The remaining packages details can be found:
 
 ## Help
 
-In case a problem or issue related to code is found, please create a new issue in GitHub.
+In case a problem or issue related to code is found, please create a [new issue](https://github.com/DelfiSpace/VESSL-Server/issues) in GitHub.
 
 ## License
 
